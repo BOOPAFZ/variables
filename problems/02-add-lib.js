@@ -8,14 +8,14 @@ let verb = "swim";
 let adjective = "sparkly";
 let noun = "rainbow";
 
-let addLib;
+let addLib = '?';
 
-console.log(addLib); // => "I shall swim to the sparkly rainbow?"
+console.log(`I shall ${verb} to the ${adjective} ${noun}${addLib}`) // => "I shall swim to the sparkly rainbow?"
 
 verb = "RUN";
 adjective = "FANCY";
 noun = "ParK";
 
-addLib = '';
+addLib = '?';
 
-console.log(addLib); // => "I shall RUN to the FANCY ParK?"
+console.log(`I shall ${verb} to the ${adjective} ${noun}${addLib}`); // => "I shall RUN to the FANCY ParK?"
